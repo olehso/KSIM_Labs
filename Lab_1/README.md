@@ -53,3 +53,34 @@
 <br>
 
 ## Обчислювальні експерименти
+### 1. Вплив часу відростання трави на популяції тварин
+Досліджується залежність популяцій тварин від часу відростання трави протягом певної кількості кроків симуляції (300)
+Експерименти проводяться при 10-100 часу відростання трави, з кроком 10, усього 10 симуляцій.  
+Інші керуючі параметри мають значення за замовчуванням:
+- **model-version** "sheep-wolves-grass"
+- **initial-number-sheep** 100
+- **initial-number-wolves** 50
+- **sheep-gain-from-food** 4
+- **wolf-gain-from-food** 20
+- **sheep-reproduce** 4
+- **wolf-reproduce** 5
+- **show-energy?** off
+
+<table>
+<thead>
+<tr><th>Час відростання трави</th><th>Трава</th><th>Вовки</th><th>Вівці</th></tr>
+</thead>
+<tbody>
+<tr><td>10</td><td>500.5</td><td>57</td><td>115</td></tr>
+<tr><td>20</td><td>458</td><td>47</td><td>139</td></tr>
+<tr><td>30</td><td>409.75</td><td>43</td><td>169</td></tr>
+<tr><td>40</td><td>383.5</td><td>55</td><td>205</td></tr>
+<tr><td>50</td><td>352.5</td><td>60</td><td>276</td></tr>
+<tr><td>60</td><td>315.75</td><td>73</td><td>313</td></tr>
+<tr><td>70</td><td>320.25</td><td>95</td><td>305</td></tr>
+<tr><td>80</td><td>302</td><td>121</td><td>343</td></tr>
+<tr><td>90</td><td>305.25</td><td>151</td><td>319</td></tr>
+<tr><td>100</td><td>325.75</td><td>222</td><td>264</td></tr>
+</tbody>
+</table>
+
