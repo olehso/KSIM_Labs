@@ -131,7 +131,7 @@
 - **sheep-gain-from-food** 4
 - **wolf-gain-from-food** 20
 - **grass-regrowth-time** 30
-- **sheep-reproduce** 4
+- **sheep-reproduce** 4%
 - **show-energy?** off
 
 <table>
