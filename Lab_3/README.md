@@ -38,7 +38,7 @@ C:\Program Files\NetLogo 6.4.0\models\Sample Models\Biology\Wolf Sheep Predation
 ![Редагування параметрів графіку вихідної моделі](measure.png)  
 та вказано у параметрі "**Measure**":
 <pre>
-count wolves
+count sheep
 </pre>
 Параметр зупинки за умовою ("**Stop if**") налаштований так, щоб симуляція припинялася, коли кількість овець стає меншою за 10 або перевищує 2000, щоб уникнути надмірного навантаження на ПК.
 <pre>
